@@ -17,7 +17,7 @@ var version = 1,
 
 script.setAttribute( 'type', 'text/javascript' );
 script.setAttribute( 'charset', 'UTF-8' );
-script.setAttribute( 'src', '//example.com/script.js?r=' + Math.random() );
+script.setAttribute( 'src', 'http://example.com/script.js?r=' + Math.random() );
 document.documentElement.appendChild( script );
 
 script.onload = script.onreadystatechange = function() {
