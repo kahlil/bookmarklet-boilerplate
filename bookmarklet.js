@@ -7,6 +7,7 @@ var MyNamespace = 'w00t!';
 if ( window[ MyNamespace ] ) {
     // You can access the namespace here
     // allowing the bookmark to be used multiple times on one page if needed
+    // https://twitter.com/dbushell/status/260375185289535488
     return;
 }
 window[ MyNamespace ] = {};
